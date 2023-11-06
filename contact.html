@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+
+    <h1>Contact page</h1>
+
+    <!-- <div>
+        <input type="text">
+    </div> -->
+
+    <form action="">
+      <div>
+        <label for="username">Username</label>
+        <input required id="username" name="username" type="text" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input required id="email" name="email" type="email" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input required id="password" name="password" type="password" />
+      </div>
+
+      <div>
+        <p>Select gender</p>
+
+        <div>
+          <label for="male">Male</label>
+          <input required id="male" name="gender" value="male" type="radio" />
+        </div>
+
+        <div>
+          <label for="female">Female</label>
+          <input
+            required
+            id="female"
+            name="gender"
+            value="female"
+            type="radio"
+          />
+        </div>
+
+        <div>
+            <p>Skills</p>
+
+            <div>
+                <label for="javaScript">JavaScript</label>
+                <input id="javaScript" name="skills" value="javaScript" type="checkbox" />
+              </div>
+
+              <div>
+                <label for="java">Java</label>
+                <input id="java" name="skills" value="java" type="checkbox" />
+              </div>
+
+              <div>
+                <label for="python">Python</label>
+                <input id="python" name="skills" value="python" type="checkbox" />
+              </div>
+        </div>
+
+        <div>
+          <label for="country">Country</label>
+          <select required name="country" id="country">
+            <option selected disabled>Select country</option>
+            <option value="ngn">Nigeria</option>
+            <option value="usa">United States of America</option>
+            <option value="uk">United Kingdom</option>
+          </select>
+        </div>
+      </div>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
